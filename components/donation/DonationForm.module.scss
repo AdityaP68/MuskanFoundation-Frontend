@@ -1,0 +1,50 @@
+.container{
+    width: 82%;
+    background-color: #FFF3F3;
+    height: 500px;
+    margin: auto;
+    margin-top: 4rem;
+    padding: 2rem;
+    text-align: center;
+    h2{
+        font-weight: 300;
+        font-size: 1.6rem;
+        line-height: 35px;
+        width: 50%;
+        margin: auto;
+    }
+    .amtBox{
+        display: flex;
+        list-style: none;
+        margin-top: 2rem;
+        li{
+            border: 1px solid black;
+            padding: 0.8rem;
+            min-width: 33.33%;
+        }
+    }
+    .amtValWrapper{
+        input{
+            border: 1px solid black;
+            background-color: transparent;
+            padding: 0.7rem;
+            width: 90%;
+            margin: auto;
+            &::placeholder{
+
+                color: #000000;
+                font-size: 0.9rem;
+                font-weight: 300;
+            }
+        }
+    }
+    button{
+        background-color: #F4C2C2;
+        color: #000000;
+        border: 0px;
+        font-weight: 300;
+        padding: 0.7rem;
+        margin-top: 1rem;
+        width: 50%;
+    }
+}
