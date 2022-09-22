@@ -1,6 +1,4 @@
-
 import styles from "./Navbar.module.scss";
-
 
 function Navbar() {
   return (
@@ -10,7 +8,7 @@ function Navbar() {
       </address>
       <nav>
         <div className={styles.logo}>
-            <img src ={'/images/logo.png'}/>
+          <img src={"/images/logo.png"} />
         </div>
         <ul className={styles.navContainer}>
           <li>About Us</li>

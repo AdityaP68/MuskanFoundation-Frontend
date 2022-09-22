@@ -1,13 +1,13 @@
-.container{
-    display: flex;
+.container {
+  display: flex;
+  position: relative;
 }
-.left{
-    width: 50%;
-    img{
-        width: 100%;
-    }
+.left {
+  width: 50%;
+  img {
+    width: 100%;
+  }
 }
-.right{
-    width: 50%;
-    
+.right {
+  width: 50%;
 }

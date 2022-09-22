@@ -1,0 +1,22 @@
+.footerContainer{
+    background-color: #FFF0EB;
+    padding: 2rem 4rem;
+    .topRow{
+        display: flex;
+        justify-content: space-between;
+        img{
+            width: 200px;
+        }
+        .quickLinks{
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+            justify-content: space-between;
+            width: 60%;
+            align-self: flex-end;
+            position: relative;
+            top: -18px;
+            margin-right: 2rem;
+        }
+    }
+}
