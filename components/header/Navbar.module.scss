@@ -30,6 +30,16 @@
       display: flex;
       gap: 2.5rem;
       align-self: flex-end;
+      .contriBtn{
+        background-color: #f36663;
+        color: #ffffff;
+        padding: 0.4rem 1rem;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: -4px;
+      }
       li {
         font-weight: 600;
         font-size: 1.1rem;

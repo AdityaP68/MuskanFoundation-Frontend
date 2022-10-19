@@ -12,9 +12,9 @@ function Navbar() {
         </div>
         <ul className={styles.navContainer}>
           <li>About Us</li>
-          <li>Donation</li>
           <li>Campaign</li>
           <li>Gallery</li>
+          <div className={styles.contriBtn}>Contribute</div>
           <li>Contact Us</li>
         </ul>
       </nav>
