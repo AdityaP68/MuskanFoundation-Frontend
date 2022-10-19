@@ -17,6 +17,10 @@
             position: relative;
             top: -18px;
             margin-right: 2rem;
+
+            @media(max-width: 768px){
+                display: none;
+            }
         }
     }
 }
