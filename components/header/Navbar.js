@@ -19,6 +19,7 @@ function Navbar() {
           <li>Contact Us</li>
         </ul>
         <span
+            className = {styles.hamburgerMenu}
           onClick={() => {
             console.log("click");
           }}
