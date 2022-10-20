@@ -21,11 +21,11 @@ function MobileMenu() {
           <li>Gallery</li>
         </a>
       </Link>
-      <Link href="/contribute">
+      {/* <Link href="/contribute"> */}
         <a>
           <li>Contribute</li>
         </a>
-      </Link>
+      {/* </Link> */}
       <Link href="/contact_us">
         <a>
           <li>Contact Us</li>

@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <header className={styles.header}>
       <address className={styles.address}>
-        <span>012-3846579 | Muskan@foundation.org</span>
+        <span>012-3846579 | MuskanFoundation.online</span>
       </address>
       <nav>
         <Link href="/">
@@ -36,11 +36,11 @@ function Navbar() {
               <li>Gallery</li>
             </a>
           </Link>
-          <Link href="/contribute">
+          {/* <Link href="/contribute"> */}
             <a>
               <div className={styles.contriBtn}>Contribute</div>
             </a>
-          </Link>
+          {/* </Link> */}
           <Link href="/contact_us">
             <a>
               <li>Contact Us</li>
