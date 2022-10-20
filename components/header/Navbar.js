@@ -1,4 +1,5 @@
 import styles from "./Navbar.module.scss";
+import MenuIcon from "@mui/icons-material/Menu";
 
 function Navbar() {
   return (
@@ -17,6 +18,13 @@ function Navbar() {
           <div className={styles.contriBtn}>Contribute</div>
           <li>Contact Us</li>
         </ul>
+        <span
+          onClick={() => {
+            console.log("click");
+          }}
+        >
+          <MenuIcon className={styles.mobMenu} />
+        </span>
       </nav>
     </header>
   );
