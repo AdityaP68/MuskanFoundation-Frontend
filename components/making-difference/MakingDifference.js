@@ -39,7 +39,9 @@ function MakingDifference() {
         </div>
       </div>
       <div className={styles.right}>
-        <div className={styles.gridContainer}></div>
+        <div className={styles.gridContainer}>
+          <img src='/images/group.png' alt="group"/>
+        </div>
       </div>
     </section>
   );

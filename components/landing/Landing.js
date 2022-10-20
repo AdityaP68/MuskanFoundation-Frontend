@@ -9,7 +9,7 @@ function Landing() {
             <h1>
               The charity that is a trifle to us can be precious to others
             </h1>
-            <div>
+            <div className={styles.filler}>
               <p>we work to improve the welfare of the community</p>
               <div className={styles.box}></div>
             </div>

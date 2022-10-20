@@ -36,6 +36,10 @@
       display: flex;
       gap: 2.5rem;
       align-self: flex-end;
+      a{
+        text-decoration: none;
+        color: #000000;
+      }
       .contriBtn{
         background-color: #f36663;
         color: #ffffff;

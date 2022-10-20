@@ -17,15 +17,31 @@ function Navbar() {
           </a>
         </Link>
         <ul className={styles.navContainer}>
-          <Link href="/campaigns">
+          <Link href="/">
             <a>
               <li>About Us</li>
             </a>
           </Link>
-          <li>Campaign</li>
-          <li>Gallery</li>
-          <div className={styles.contriBtn}>Contribute</div>
-          <li>Contact Us</li>
+          <Link href="/campaigns">
+            <a>
+              <li>Campaigns</li>
+            </a>
+          </Link>
+          <Link href="/gallery">
+            <a>
+              <li>Gallery</li>
+            </a>
+          </Link>
+          <Link href="/contribute">
+            <a>
+              <div className={styles.contriBtn}>Contribute</div>
+            </a>
+          </Link>
+          <Link href="/contact_us">
+            <a>
+              <li>Contact Us</li>
+            </a>
+          </Link>
         </ul>
         <span
           className={styles.hamburgerMenu}

@@ -5,7 +5,7 @@ import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/header/Navbar";
 import styles from "./Campaigns.module.scss";
 
-function index() {
+function Campaigns() {
   return (
     <React.Fragment>
       <Navbar />
@@ -88,4 +88,4 @@ function index() {
   );
 }
 
-export default index;
+export default Campaigns;
