@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  img {
+    width: 100%;
+  }
+  .padding {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    background-color: #ffffff92;
+    padding: 1.5rem 1rem;
+    -webkit-box-shadow: 1px -1px 41px 12px rgba(0, 0, 0, 0.17);
+    -moz-box-shadow: 1px -1px 41px 12px rgba(0, 0, 0, 0.17);
+    box-shadow: 1px -1px 41px 12px rgba(0, 0, 0, 0.17);
+    h1 {
+      font-size: 3rem;
+      width: 60%;
+      text-align: center;
+      margin: auto;
+    }
+  }
+}
