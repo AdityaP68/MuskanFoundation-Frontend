@@ -1,8 +1,12 @@
 import styles from "./Navbar.module.scss";
 import MenuIcon from "@mui/icons-material/Menu";
 import Link from "next/link";
+import { useState } from "react";
+import MobileMenu from "./MobileMenu";
 
 function Navbar() {
+  const [isMounted, setIsMounted] = useState(false)
+  console.log(isMounted)
   return (
     <header className={styles.header}>
       <address className={styles.address}>
@@ -46,12 +50,13 @@ function Navbar() {
         <span
           className={styles.hamburgerMenu}
           onClick={() => {
-            console.log("click");
+            setIsMounted(v=>!v)
           }}
         >
           <MenuIcon className={styles.mobMenu} />
         </span>
       </nav>
+      {isMounted && <MobileMenu/>}
     </header>
   );
 }
