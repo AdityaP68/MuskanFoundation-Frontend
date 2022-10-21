@@ -5,6 +5,7 @@ import Landing from "../components/landing/Landing";
 import Donation from "../components/donation/Donation";
 import MakingDifference from "../components/making-difference/MakingDifference";
 import Footer from "../components/footer/Footer";
+import CommunitySupport from "../components/community-support/CommunitySupport";
 
 function index() {
   return (
@@ -18,6 +19,7 @@ function index() {
           <h1>#MakeADifference</h1>
         </div>
       </main>
+      <CommunitySupport/>
       <Footer />
     </React.Fragment>
   );
