@@ -6,6 +6,7 @@ import Donation from "../components/donation/Donation";
 import MakingDifference from "../components/making-difference/MakingDifference";
 import Footer from "../components/footer/Footer";
 import CommunitySupport from "../components/community-support/CommunitySupport";
+import Testimonials from "../components/testimonials/Testimonials";
 
 function index() {
   return (
@@ -20,6 +21,7 @@ function index() {
         </div>
       </main>
       <CommunitySupport/>
+      <Testimonials/>
       <Footer />
     </React.Fragment>
   );
