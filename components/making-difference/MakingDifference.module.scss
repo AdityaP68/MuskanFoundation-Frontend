@@ -1,7 +1,7 @@
 .container {
   padding: 4rem;
   display: flex;
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     padding: 2rem;
   }
 }
@@ -27,25 +27,24 @@
       }
     }
   }
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     width: 100%;
-    h1{
+    h1 {
       text-align: center;
       width: 100%;
       font-size: 2rem;
     }
-    .contentWrapper{
+    .contentWrapper {
       width: 100%;
     }
   }
 }
-.right{
+.right {
   width: 40%;
-  img{
+  img {
     width: 85%;
   }
-  @media (max-width: 768px){
+  @media (max-width: 768px) {
     display: none;
   }
-
 }

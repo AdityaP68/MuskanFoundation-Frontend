@@ -1,10 +1,9 @@
-import React from 'react'
-import Link from 'next/link'
-import styles from './MobileMenu.module.scss'
+import React from "react";
+import Link from "next/link";
+import styles from "./MobileMenu.module.scss";
 
 function MobileMenu() {
   return (
-
     <ul className={styles.navContainer}>
       <Link href="/">
         <a>
@@ -22,9 +21,9 @@ function MobileMenu() {
         </a>
       </Link>
       {/* <Link href="/contribute"> */}
-        <a>
-          <li>Contribute</li>
-        </a>
+      <a>
+        <li>Contribute</li>
+      </a>
       {/* </Link> */}
       <Link href="/contact_us">
         <a>
@@ -32,8 +31,7 @@ function MobileMenu() {
         </a>
       </Link>
     </ul>
-
-  )
+  );
 }
 
-export default MobileMenu
+export default MobileMenu;

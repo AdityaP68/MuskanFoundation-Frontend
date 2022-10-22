@@ -14,8 +14,8 @@ function CommunitySupport() {
           </p>
         </div>
         <div className={styles.imgContainer}>
-            <div className={styles.img1}></div>
-            <div className={styles.img2}></div>
+          <div className={styles.img1}></div>
+          <div className={styles.img2}></div>
         </div>
       </div>
       <div className={styles.right}>

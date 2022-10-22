@@ -2,7 +2,7 @@
   padding: 0.5rem 1.6rem;
   // border-bottom: 1px solid black;
 
-  .hamburgerMenu{
+  .hamburgerMenu {
     display: none;
   }
   address {
@@ -11,8 +11,8 @@
     justify-content: flex-end;
     font-size: 0.9rem;
     margin: 0;
-    @media (max-width: 900px){
-      display: none
+    @media (max-width: 900px) {
+      display: none;
     }
   }
   nav {
@@ -36,11 +36,11 @@
       display: flex;
       gap: 2.5rem;
       align-self: flex-end;
-      a{
+      a {
         text-decoration: none;
         color: #000000;
       }
-      .contriBtn{
+      .contriBtn {
         background-color: #f36663;
         color: #ffffff;
         padding: 0.4rem 1rem;
@@ -55,26 +55,26 @@
         font-size: 1.1rem;
       }
 
-      @media (max-width: 900px){
+      @media (max-width: 900px) {
         display: none;
       }
     }
 
-    @media (max-width: 900px){
+    @media (max-width: 900px) {
       align-items: center;
-      .logo{
+      .logo {
         display: flex;
         margin: 1rem 0;
-        img{
+        img {
           width: 135px;
         }
       }
     }
   }
 
-  @media (max-width: 900px){
+  @media (max-width: 900px) {
     border-bottom: 1px solid rgb(224, 224, 224);
-    .hamburgerMenu{
+    .hamburgerMenu {
       display: block;
       font-size: 30px;
       margin-top: 0.8rem;

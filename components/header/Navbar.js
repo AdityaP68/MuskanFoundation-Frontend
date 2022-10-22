@@ -5,8 +5,8 @@ import { useState } from "react";
 import MobileMenu from "./MobileMenu";
 
 function Navbar() {
-  const [isMounted, setIsMounted] = useState(false)
-  console.log(isMounted)
+  const [isMounted, setIsMounted] = useState(false);
+  console.log(isMounted);
   return (
     <header className={styles.header}>
       <address className={styles.address}>
@@ -37,9 +37,9 @@ function Navbar() {
             </a>
           </Link>
           {/* <Link href="/contribute"> */}
-            <a>
-              <div className={styles.contriBtn}>Contribute</div>
-            </a>
+          <a>
+            <div className={styles.contriBtn}>Contribute</div>
+          </a>
           {/* </Link> */}
           <Link href="/contact_us">
             <a>
@@ -50,13 +50,13 @@ function Navbar() {
         <span
           className={styles.hamburgerMenu}
           onClick={() => {
-            setIsMounted(v=>!v)
+            setIsMounted((v) => !v);
           }}
         >
           <MenuIcon className={styles.mobMenu} />
         </span>
       </nav>
-      {isMounted && <MobileMenu/>}
+      {isMounted && <MobileMenu />}
     </header>
   );
 }

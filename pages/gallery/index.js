@@ -3,6 +3,8 @@ import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/header/Navbar";
 import styles from "./Gallery.module.scss";
 
+const url = []
+
 function Gallery() {
   return (
     <React.Fragment>
@@ -10,7 +12,7 @@ function Gallery() {
       <main
         className={styles.main}
         style={{
-          height: "100vh",
+          height: "80vh",
           display: "flex",
           alignItems: "center",
           justifyContent: "space-around",
@@ -25,6 +27,7 @@ function Gallery() {
         >
           <h2 style={{}}>Yet to upload any pictures/videos</h2>
         </div>
+        
       </main> 
       <Footer />
     </React.Fragment>
