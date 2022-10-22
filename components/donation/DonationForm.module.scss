@@ -25,6 +25,7 @@
       border: 1px solid black;
       padding: 0.8rem;
       min-width: 33.33%;
+      cursor: pointer;
     }
   }
   .amtValWrapper {
@@ -99,5 +100,48 @@
     .amtValWrapper {
       width: 90%;
     }
+  }
+}
+
+.QRcontainer {
+  background-color: #fff3f3;
+  max-height: 650px;
+  max-width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 2rem;
+  text-align: center;
+  .wrapper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: #f4c2c2;
+      border: none;
+      width: 50%;
+      padding: 0.7rem;
+      color: #000000;
+    }
+  }
+  @media (max-width: 550px) {
+    max-width: 90%;
+  }
+}
+
+.QRimg {
+  max-width: 300px;
+  h2 {
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 35px;
+    width: 50%;
+    margin: auto;
+  }
+  @media (max-width: 550px) {
+    max-width: 90%;
   }
 }

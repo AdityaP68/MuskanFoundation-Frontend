@@ -1,36 +1,97 @@
 import styles from "./DonationForm.module.scss";
 
 import React from "react";
+import { useState } from "react";
 
 function DonationForm() {
+  const [val, setVal] = useState();
+  const [showUPI, setShowUPI] = useState(false);
+  const [isAmt, setIsAmt] = useState(true);
+  console.log("amt", isAmt);
   return (
-    <form className={styles.container} action="google.com" method="POST">
-      <h2>Help Us Give the Power to Choose in a Child’s Hands</h2>
-      <div className={styles.wrapper}>
-        <ul className={styles.amtBox}>
-          <li>
-            <span>&#8377;</span>3600
-          </li>
-          <li>
-            <span>&#8377;</span>10800
-          </li>
-          <li>
-            <span>&#8377;</span>18000
-          </li>
-        </ul>
-        <div className={styles.amtValWrapper}>
-          <div className={styles.sign}>
-            <span>&#8377;</span>
+    <>
+      {showUPI && (
+        <div className={styles.QRcontainer}>
+          <h2>Amount: {val}</h2>
+          <div className={styles.wrapper2}>
+            <img src={"/images/qr2.png"} className={styles.QRimg} />
+            <button
+              className={styles.btn}
+              onClick={() => {
+                setShowUPI(false);
+                setIsAmt(true);
+                setVal();
+              }}
+            >
+              Done
+            </button>
           </div>
-          <input type="number" placeholder="Other Amount" />
         </div>
+      )}
+      {!showUPI && (
+        <div className={styles.container}>
+          <h2>Help Us Give the Power to Choose in a Child’s Hands</h2>
+          <div className={styles.wrapper}>
+            <ul className={styles.amtBox}>
+              <li
+                onClick={() => {
+                  setVal(3600);
+                }}
+              >
+                <span>&#8377;</span>3600
+              </li>
+              <li
+                onClick={() => {
+                  setVal(10800);
+                }}
+              >
+                <span>&#8377;</span>10800
+              </li>
+              <li
+                onClick={() => {
+                  setVal(18000);
+                }}
+              >
+                <span>&#8377;</span>18000
+              </li>
+            </ul>
+            <div className={styles.amtValWrapper}>
+              <div className={styles.sign}>
+                <span>&#8377;</span>
+              </div>
+              <input
+                type="number"
+                placeholder="Other Amount"
+                value={val}
+                onChange={(e) => {
+                  setVal(e.target.val);
+                }}
+              />
+            </div>
 
-        <button type="submit">
-          DONATE
-          <img src={"/images/donate.svg"} />
-        </button>
-      </div>
-    </form>
+            <button
+              type="submit"
+              onClick={() => {
+                if (!val) {
+                  return setIsAmt(false);
+                }
+                setShowUPI(true);
+              }}
+            >
+              DONATE
+              <img src={"/images/donate.svg"} />
+            </button>
+            {!isAmt && (
+              <span
+                style={{ display: "block", marginTop: "10px", color: "red" }}
+              >
+                Please enter a valid number
+              </span>
+            )}
+          </div>
+        </div>
+      )}
+    </>
   );
 }
 
