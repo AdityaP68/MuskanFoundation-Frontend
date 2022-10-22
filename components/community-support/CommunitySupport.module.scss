@@ -30,18 +30,26 @@
       gap: 1rem;
       div {
         flex: 1;
-        height: 250px;
+        max-height: 385px;
         background-color: rgb(174, 174, 174);
+        overflow: hidden;
+        img {
+          max-width: 405px;
+        }
       }
     }
   }
   .right {
     flex: 3;
     display: flex;
+    overflow: hidden;
     div {
       flex: 3;
       background-color: rgb(174, 174, 174);
       margin: 1.5rem 1rem 0 1rem;
+      img{
+        max-width: 405px;
+      }
     }
   }
   @media (max-width: 768px) {

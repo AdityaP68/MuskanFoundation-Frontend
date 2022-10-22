@@ -1,12 +1,16 @@
 import styles from "./DonationForm.module.scss";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 
 function DonationForm() {
   const [val, setVal] = useState();
   const [showUPI, setShowUPI] = useState(false);
   const [isAmt, setIsAmt] = useState(true);
+  useEffect(()=>{
+    setIsAmt(true)
+  }, [val])
+
   console.log("amt", isAmt);
   return (
     <>
@@ -64,7 +68,7 @@ function DonationForm() {
                 placeholder="Other Amount"
                 value={val}
                 onChange={(e) => {
-                  setVal(e.target.val);
+                  setVal(e.target.value);
                 }}
               />
             </div>
