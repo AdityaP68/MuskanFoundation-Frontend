@@ -30,27 +30,37 @@
       gap: 1rem;
       div {
         flex: 1;
-        max-height: 385px;
+        height: 400px;
         background-color: rgb(174, 174, 174);
         overflow: hidden;
-        img {
-          max-width: 405px;
-        }
+        background-size:cover;
+        background-clip: border-box;
+        background-repeat: no-repeat;
       }
+      .img1{
+        background-image: url('../../public/images/gallery/4.jpeg');
+      }
+      .img2{
+        background-image: url('../../public/images/gallery/3.jpeg');
     }
-  }
-  .right {
+}
+}
+.right {
     flex: 3;
     display: flex;
     overflow: hidden;
     div {
-      flex: 3;
-      background-color: rgb(174, 174, 174);
-      margin: 1.5rem 1rem 0 1rem;
-      img{
-        max-width: 405px;
-      }
+        flex: 3;
+        background-color: rgb(174, 174, 174);
+        margin: 1.5rem 1rem 0 1rem;
+        background-size:cover;
+        background-clip: border-box;
+        background-repeat: no-repeat;
     }
+    .img3{
+          background-image: url('../../public/images/gallery/2.jpeg');
+       
+      }
   }
   @media (max-width: 768px) {
     .right {
