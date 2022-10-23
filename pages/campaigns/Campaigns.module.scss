@@ -43,5 +43,8 @@
             font-weight: bold;
             color: #000000;
         }
+        @media (max-width: 550px){
+            width: 80%
+        }
     }
 }

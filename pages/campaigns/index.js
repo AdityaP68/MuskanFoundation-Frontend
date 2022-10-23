@@ -10,7 +10,7 @@ function Campaigns() {
     <React.Fragment>
       <Navbar />
       <main>
-        <Banner path = "/images/campaign4.png"/>
+        <Banner path="/images/campaign4.png" />
         <div className={styles.mainContent}>
           <div className={styles.heading}>
             <h1>Our Campaigns</h1>
@@ -24,8 +24,16 @@ function Campaigns() {
             <CampaignList
               title={"Raation Bag Project -"}
               content={
-                "Provide Ration Bags to the impoverished people, physically disable people, surviving spouse and elderly who cannot afford the proper and nutritious food."
+                "Rajasthan endures bone-chillingly cold temperatures and near-zero temperature cold conditions every year. Elderly people and little children have an extremely tough time surviving in these extreme cold conditions. In this campaign, we distribute woollen clothing and blankets to them, which assist them withstand these terrible weather. With everyone's help, we have distributed 600 sweaters among the unprivileged ones."
               }
+              hotBanner = "true"
+            />
+            <CampaignList
+              title={"Diwali Dil Wali -"}
+              content={
+                "Diwali, this festival is a very auspicious occasion that is celebrated with much fervour, cheer and joy.Everyone likes to dress in new clothes, exchange sweets, and eat healthy meals. However, the poor are unable to obtain it. This campaign aims to put a smile on these families' faces  by  giving kids new clothes, sweets, and ration bags so they can celebrate with their family. and it enables them to take full happiness and joy in the celebration. Today, we won 90 smiles from the families in 2022, bringing the total to 1270 smiles."
+              }
+              hotBanner = "true"
             />
             <CampaignList
               title={"Yeh Parivar Mera Parivar - "}
@@ -64,12 +72,6 @@ function Campaigns() {
               }
             />
             <CampaignList
-              title={"Diwali Dil Wali -"}
-              content={
-                "We Provide fireworks, new clothes and sweets to the poor in Diwali."
-              }
-            />
-            <CampaignList
               title={"Chara Vitaran -"}
               content={"Arranging grass and making shelter for the cows."}
             />
@@ -82,8 +84,7 @@ function Campaigns() {
           </section>
         </div>
       </main>
-      <Footer/>
-      
+      <Footer />
     </React.Fragment>
   );
 }
