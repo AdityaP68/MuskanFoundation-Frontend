@@ -5,13 +5,13 @@ function CampaignList({ title, content, hotBanner }) {
   
   return (
     <div className={styles.container}>
-      <p>
+      <div>
       {hotBanner && <span className={styles.hotFlag}> @ signature drive</span>}
-         <h2 className={hotBanner  && styles.hotBanner}>{title}</h2>
+        <h2 className={hotBanner  && styles.hotBanner}>{title}</h2>
         <p className={styles.content}>
         {content}
         </p>
-      </p>
+      </div>
     </div>
   );
 }

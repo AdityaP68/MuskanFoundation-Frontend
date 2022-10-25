@@ -11,7 +11,6 @@ function DonationForm() {
     setIsAmt(true)
   }, [val])
 
-  console.log("amt", isAmt);
   return (
     <>
       {showUPI && (

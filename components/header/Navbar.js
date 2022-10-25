@@ -6,7 +6,7 @@ import MobileMenu from "./MobileMenu";
 
 function Navbar() {
   const [isMounted, setIsMounted] = useState(false);
-  console.log(isMounted);
+
   return (
     <header className={styles.header}>
       <address className={styles.address}>
@@ -36,11 +36,11 @@ function Navbar() {
               <li>Gallery</li>
             </a>
           </Link>
-          {/* <Link href="/contribute"> */}
+          <Link href="/contribute">
           <a>
             <div className={styles.contriBtn}>Contribute</div>
           </a>
-          {/* </Link> */}
+          </Link>
           <Link href="/contact_us">
             <a>
               <li>Contact Us</li>

@@ -10,7 +10,6 @@ function Grid() {
       src: `/images/gallery/${i}.jpeg`,
     });
   }
-  console.log(url);
   return (
     <section className={styles.gallery}>
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 3, 900: 4 }}>
