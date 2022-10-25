@@ -22,7 +22,7 @@ function Campaigns() {
           </div>
           <section className={styles.campaignList}>
             <CampaignList
-              title={"Raation Bag Project -"}
+              title={"Winter Project -"}
               content={
                 "Rajasthan endures bone-chillingly cold temperatures and near-zero temperature cold conditions every year. Elderly people and little children have an extremely tough time surviving in these extreme cold conditions. In this campaign, we distribute woollen clothing and blankets to them, which assist them withstand these terrible weather. With everyone's help, we have distributed 600 sweaters among the unprivileged ones."
               }
@@ -60,7 +60,7 @@ function Campaigns() {
               }
             />
             <CampaignList
-              title={"Winter Project -"}
+              title={"Raation Bag Project -"}
               content={
                 "Provide the woollen clothes to impoverished families in winter. They have distributed 600 sweaters to children."
               }
