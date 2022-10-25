@@ -3,7 +3,7 @@ import Banner from "../../components/campaigns/banner/Banner";
 import ContactForm from "../../components/contact-us/contact-form/ContactForm";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/header/Navbar";
-
+import Location from "../../components/map/Map";
 import styles from "./ContactUs.module.scss";
 
 function ContactUs() {
@@ -55,7 +55,7 @@ function ContactUs() {
           </div>
         </section>
         <section className={styles.map}>
-          <img src="/images/map2.png" alt="map"/>
+          <Location/>
          
         </section>
         <section className={styles.contactForm}>

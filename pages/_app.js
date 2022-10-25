@@ -7,7 +7,6 @@ function MyApp({ Component, pageProps }) {
     <>
     <Head>
       <title>Muskan Foundation</title>
-      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRYcN5Rsk9ez-6BvB-ktrt16BMbW0LzDs"></script>
     </Head>
     <Component {...pageProps} />
     </>
