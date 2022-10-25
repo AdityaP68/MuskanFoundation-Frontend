@@ -1,13 +1,21 @@
 .container {
   position: relative;
+  height: 80vh;
+  background-color: #fb6251;
+  background-color: #fba45d;
+  display: flex;
+  align-items: center;
   img {
     width: 100%;
+    position: absolute;
+    z-index: 50;
+   
   }
   .padding {
+    z-index: 100;
     width: 100%;
-    position: absolute;
     top: 35%;
-    background-color: #ff796a;
+    background-color: #ff6f5f;
     color: #ffffff;
     padding: 1.8rem 1rem;
     -webkit-box-shadow: 1px -1px 41px 12px rgba(0, 0, 0, 0.17);
@@ -22,7 +30,6 @@
   }
   @media (max-width: 1200px) {
     .padding {
-      top: 30%;
       h1 {
         font-size: 3rem;
         width: 70%;
@@ -31,7 +38,6 @@
   }
   @media (max-width: 920px) {
     .padding {
-      top: 20%;
       h1 {
         font-size: 2.8rem;
         width: 80%;
@@ -54,6 +60,7 @@
     }
   }
   @media (max-width: 620px) {
+    height: 60vh;
     img {
       display: none;
     }
@@ -61,7 +68,9 @@
       box-shadow: none;
       position: static;
       background-color: #ff796a;
+      background-color: #fb6251;
       color: #ffffff;
+      
     }
   }
 }

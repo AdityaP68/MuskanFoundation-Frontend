@@ -8,9 +8,25 @@ function Footer() {
       <div className={styles.topRow}>
         <img src={"/images/logo.png"} />
         <div className={styles.quickLinks}>
-          <li>CALL US NOW</li>
-          <li>SEND AN EMAIL</li>
-          <li>ADDRESS OF NGO</li>
+          <div className={styles.item}>
+            <span>Join Us</span>
+            <li>8HJW+785, Bhilwara Rd, Patel Nagar<br/> Bhilwara, Rajasthan - 311001</li>
+            <li></li>
+            
+            
+          </div>
+          <div className={styles.item}>
+            <span>Contact Us</span>
+            <li>8HJW+785, Bhilwara Rd, Patel Nagar<br/> Bhilwara, Rajasthan - 311001</li>
+            <li></li>
+           
+          </div>
+          <div className={styles.item}>
+            <span>Postal Address</span>
+            <li>8HJW+785, Bhilwara Rd, Patel Nagar<br/> Bhilwara, Rajasthan - 311001</li>
+            {/* <li></li>
+            <li></li> */}
+          </div>
         </div>
       </div>
     </footer>

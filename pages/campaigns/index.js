@@ -35,34 +35,40 @@ function Campaigns() {
               }
               hotBanner = "true"
             />
+              <CampaignList
+                title={"Ration Bag Project -"}
+                content={
+                  "Food is the moral right of all who are born into this world. There are people in the world so hungry, that nothing except bread can help them. We provide the Ration Bags to those in need through this drive. This enables underprivileged families to endure difficult times."
+                }
+              />
             <CampaignList
               title={"Yeh Parivar Mera Parivar - "}
               content={
-                "We provide the basic need of the people, that is, Education for impoverished students, healthcare for edlerly, etc."
+                "In this effort, we encourage the ration bag campaign donors to adopt one of the household and supply them with ration bags for one month. This aids in the distribution of not just ration bags but also mattresses, almirahs, fans, clothes, as well as the healthcare of elderly and education of the children, allowing a poor family to live in peacefully and respectfully in the society."
+              }
+            />
+            <CampaignList
+              title={"Blood Donation Camp -"}
+              content={
+                "Blood Donation is a Voluntary procedure that can help save lives. Blood donation camps have been organised, which aid in the collection of all blood types. Here, in Muskan we regularly arrange these types of donation camps, and all donated blood is subsequently sent to the city's blood bank."
               }
             />
             <CampaignList
               title={"Vidhya Param Balam -"}
               content={
-                " We provide the stationary stuffs in the government schools of the villages towns. "
+                " The greatest prospects for personal fulfilment are offered by education. It gives one access to everything they still have to learn. So it stands to reason that offering education is seen as the best gift. During this drive, we donate stationary items, winter clothing made of wool, and contribute to the repairment  for government schools in rural and urban areas."
               }
             />
             <CampaignList
               title={"Share your happiness Programme -"}
               content={
-                "To create awareness to donate on birthdays, anniversaries and other occasion to spread happiness."
+                "as there is a saying, Happiness grows by sharing. so we motivate other people to implement this quote by celebrating their special days like Birthdays, Anniversaries, etc with the students of government school by providing eatables, stationaries or arrange fodder for cow in Gaushala, or providing some ration bags to impoverished people in slums and share their happiness. "
               }
             />
             <CampaignList
               title={"Vrkshaaropan -"}
               content={
                 "We also conduct plantation drives in the city, villages and towns."
-              }
-            />
-            <CampaignList
-              title={"Raation Bag Project -"}
-              content={
-                "Provide the woollen clothes to impoverished families in winter. They have distributed 600 sweaters to children."
               }
             />
             <CampaignList
@@ -73,7 +79,7 @@ function Campaigns() {
             />
             <CampaignList
               title={"Chara Vitaran -"}
-              content={"Arranging grass and making shelter for the cows."}
+              content={"In India, cows are revered as a symbol of Mother Earth since they are a source of kindness and their milk nourishes all living things. Through this campaign, we provide various forms of fodder, including green, dry, mixed, and so on. We also strive to contribute to the construction of the Gaushala."}
             />
             <CampaignList
               title={"Tulsi evan parinda Vitaran - "}
