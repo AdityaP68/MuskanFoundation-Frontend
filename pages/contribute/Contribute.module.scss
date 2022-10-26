@@ -2,8 +2,8 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 0.7rem;
     .items{
-        margin-top: 0.4rem;
         height: 260px;
         width: 33.3%;
         background-color: rgb(255, 172, 127);
@@ -33,6 +33,7 @@
             button{
                 background-color: #ff9900;
             }
+
         }
         .heading{
             padding: 1.8rem;
@@ -51,9 +52,71 @@
 
 
             }
+            @media (max-width: 550px){
+                button{
+                    padding: 0.2rem 1rem;
+                }
+            }
         }
     }
-    .mainWrapper{
-        margin-top: 0.4rem;
+    
+    @media (max-width: 550px){
+        display: none;
+    }
+}
+
+.mainWrapper{
+    padding: 2rem;
+    margin-top: 2.7rem;
+    width: 100%;
+    .contentWrapper{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        h2{
+            font-size: 2.7rem;
+        }
+        p{
+            margin-top: 1rem;
+            color: rgb(85, 85, 85);
+            font-size: 1.2rem;
+        }
+        @media (max-width: 550px){
+            width: 95%;
+            p{
+                font-size: 1rem;
+            }
+        }
+
+    }
+    .rulesWrapper{
+        padding: 2rem;
+        border: 1px solid rgb(255, 128, 0);
+        border-radius: 10px;
+        background-color: rgb(255, 245, 239);
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        margin-top: 4rem;
+        h3{
+            font-size: 1.5rem;
+            padding: 1rem;
+
+        }
+        ol{
+            text-align: left;
+            margin-top: 2.5rem;
+            li{
+                margin-top: 1rem;
+                padding-left: 0.5rem;
+            }
+        }
+        @media (max-width: 550px){
+            width: 100%;
+            h3{
+                text-align: left;
+            }
+        }
+
     }
 }

@@ -1,6 +1,7 @@
 .container {
   position: relative;
-  height: 80vh;
+  height: 70vh;
+  max-height: 580px;
   background-color: #fb6251;
   background-color: #fba45d;
   display: flex;
@@ -9,7 +10,6 @@
     width: 100%;
     position: absolute;
     z-index: 50;
-   
   }
   .padding {
     z-index: 100;
@@ -46,6 +46,9 @@
       h1 {
         font-size: 3rem;
         width: 70%;
+      }
+      button{
+        width: 40%;
       }
     }
   }
