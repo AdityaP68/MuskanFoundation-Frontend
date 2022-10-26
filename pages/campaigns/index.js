@@ -10,7 +10,7 @@ function Campaigns() {
     <React.Fragment>
       <Navbar />
       <main>
-        <Banner path="/images/campaign4.png" />
+        <Banner path="/images/campaign4.png" heading={"Muskan - Non-Governmental Organisation, Bhilwara"} />
         <div className={styles.mainContent}>
           <div className={styles.heading}>
             <h1>Our Campaigns</h1>

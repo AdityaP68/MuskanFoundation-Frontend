@@ -2,12 +2,14 @@ import Image from "next/image";
 import React from "react";
 import styles from "./Banner.module.scss";
 
-function Banner({ path }) {
+function Banner({ path, heading, page }) {
   return (
     <section className={styles.container}>
       <img src={path} alt="banner" />
       <div className={styles.padding}>
-        <h1>Muskan - Non-Governmental Organisation, Bhilwara</h1>
+        {/* <h1>Muskan - Non-Governmental Organisation, Bhilwara</h1> */}
+        <h1 className={page==="contribute" ? styles.donateH : ''}>{heading}</h1>
+        {page==='contribute' && <button>Join Us</button>}
       </div>
     </section>
   );

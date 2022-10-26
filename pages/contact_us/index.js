@@ -11,7 +11,7 @@ function ContactUs() {
     <React.Fragment>
       <Navbar />
       <main>
-        <Banner path={"/images/campaign2.png"} />
+        <Banner path={"/images/campaign2.png"} heading={"Muskan - Non-Governmental Organisation, Bhilwara"}/>
         <section className={styles.mainContainer}>
           <h2>
             If you would like to join us in our mission to change the lives of

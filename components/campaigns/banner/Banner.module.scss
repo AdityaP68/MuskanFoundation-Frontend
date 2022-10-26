@@ -15,7 +15,7 @@
     z-index: 100;
     width: 100%;
     top: 35%;
-    background-color: #ff6f5f;
+    background-color: #ff614fbb;
     color: #ffffff;
     padding: 1.8rem 1rem;
     -webkit-box-shadow: 1px -1px 41px 12px rgba(0, 0, 0, 0.17);
@@ -23,9 +23,22 @@
     box-shadow: 1px -1px 41px 12px rgba(0, 0, 0, 0.17);
     h1 {
       font-size: 4rem;
-      width: 80%;
+      width: 60%;
       text-align: center;
       margin: auto;
+    }
+    button{
+      display: block;
+      margin: auto;
+      border: none;
+      border-radius: 20px;
+      padding: 0.5rem 2rem;
+      width: 20%;
+      margin-top: 2rem;
+      background-color: #ffffff;
+      color: #fb6251;
+      margin-bottom: 1rem;
+      cursor: pointer;
     }
   }
   @media (max-width: 1200px) {
