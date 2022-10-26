@@ -2,6 +2,7 @@
   position: relative;
   height: 70vh;
   max-height: 580px;
+  min-height: 230px;
   background-color: #fb6251;
   background-color: #fba45d;
   display: flex;
@@ -42,6 +43,9 @@
       cursor: pointer;
     }
   }
+  @media (max-height: 500px){
+    max-height: 350px;
+  }
   @media (max-width: 1200px) {
     .padding {
       h1 {
@@ -76,7 +80,7 @@
       }
     }
   }
-  @media (max-width: 620px) {
+  @media (max-width: 700px) {
     height: 45vh;
     img {
       display: none;

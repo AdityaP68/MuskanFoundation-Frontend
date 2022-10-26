@@ -12,7 +12,7 @@ function Grid() {
   }
   return (
     <section className={styles.gallery}>
-      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 3, 900: 4 }}>
+      <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 680: 2, 1020: 3, 1340: 4 }}>
       <Masonry>
         {url.map((src, idx) => {
           return <img src={src.src} key={idx} className={styles.container} />;
